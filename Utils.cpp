@@ -794,3 +794,4 @@ bool FsyncDirectory(const std::string& dirname) {
 
 }  // namespace vold
 }  // namespace android
+}
