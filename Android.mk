@@ -102,6 +102,7 @@ ifeq ($(TARGET_HW_DISK_ENCRYPTION),true)
   common_c_includes += $(TARGET_CRYPTFS_HW_PATH)
   common_shared_libraries += libcryptfs_hw
   vold_cflags += -DCONFIG_HW_DISK_ENCRYPTION
+endif
 
 ifeq ($(TARGET_KERNEL_HAVE_EXFAT),true)
 vold_cflags += -DCONFIG_KERNEL_HAVE_EXFAT
